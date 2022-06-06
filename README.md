@@ -6,4 +6,4 @@
 
 #### Episode Return
 
-<img src='results/LunarLander/LunarLander-episode_return' width='250' height='200' />
+<img src='results/LunarLander/LunarLander-episode_return.png' width='250' height='200' />
