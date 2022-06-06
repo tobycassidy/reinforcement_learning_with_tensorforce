@@ -5,34 +5,40 @@
 ## CartPole
 ---
 
-#### CartPole0
+#### CartPole-early
 
-<img src='results/CartPole/CartPole0.gif' width='350' height='300' />
+<img src='results/CartPole/CartPole-early.gif' width='350' height='300' />
 
-#### CartPole59
+#### CartPole-middle
 
-<img src='results/CartPole/CartPole59.gif' width='350' height='300' />
+<img src='results/CartPole/CartPole-middle.gif' width='350' height='300' />
 
-#### CartPole86
+#### CartPole-late
 
-<img src='results/CartPole/CartPole86.gif' width='350' height='300' />
-
-
+<img src='results/CartPole/CartPole-late.gif' width='350' height='300' />
 
 
+#### Tensorboard Experiment Summaries 
+(episode returns, episode lengths, action distributions and agent entropy)
+
+<img src='results/CartPole/CartPole-episode_return.png' width='350' height='300' />
+<img src='results/CartPole/CartPole-episode_length.png' width='350' height='300' />
+<img src='results/CartPole/CartPole-action_distribution(0).png' width='350' height='300' />
+<img src='results/CartPole/CartPole-action_distribution(1).png' width='350' height='300' />
+<img src='results/CartPole/CartPole-agent_entropy.png' width='350' height='300' />
 
 ---
 ## LunarLander
 ---
 
-#### LunarLander0
+#### LunarLander-early
 
-<img src='results/LunarLander/LunarLander0.gif' width='450' height='350' />
+<img src='results/LunarLander/LunarLander-early.gif' width='450' height='350' />
 
-#### LunarLander59
+#### LunarLander-middle
 
-<img src='results/LunarLander/LunarLander59.gif' width='550' height='375' />
+<img src='results/LunarLander/LunarLander-middle.gif' width='550' height='375' />
 
-#### LunarLander86
+#### LunarLander-late
 
-<img src='results/LunarLander/LunarLander86.gif' width='550' height='375' />
+<img src='results/LunarLander/LunarLander-late.gif' width='550' height='375' />
