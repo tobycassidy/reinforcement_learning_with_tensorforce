@@ -5,40 +5,36 @@
 ## CartPole
 ---
 
-#### CartPole-early
+#### CartPole - early
 
 <img src='results/CartPole/CartPole-early.gif' width='350' height='300' />
 
-#### CartPole-middle
+#### CartPole - middle
 
 <img src='results/CartPole/CartPole-middle.gif' width='350' height='300' />
 
-#### CartPole-late
+#### CartPole - late
 
 <img src='results/CartPole/CartPole-late.gif' width='350' height='300' />
 
 
-#### Tensorboard Experiment Summaries 
+#### CartPole - Important plots taken from TensorBoard
 (episode returns, episode lengths, action distributions and agent entropy)
 
-<img src='results/CartPole/CartPole-episode_return.png' width='350' height='300' />
-<img src='results/CartPole/CartPole-episode_length.png' width='350' height='300' />
-<img src='results/CartPole/CartPole-action_distribution(0).png' width='350' height='300' />
-<img src='results/CartPole/CartPole-action_distribution(1).png' width='350' height='300' />
-<img src='results/CartPole/CartPole-agent_entropy.png' width='350' height='300' />
+<img src='results/CartPole/CartPole-summary_plots.png' width='350' height='300' />
 
 ---
 ## LunarLander
 ---
 
-#### LunarLander-early
+#### LunarLander - early
 
 <img src='results/LunarLander/LunarLander-early.gif' width='450' height='350' />
 
-#### LunarLander-middle
+#### LunarLander - middle
 
 <img src='results/LunarLander/LunarLander-middle.gif' width='550' height='375' />
 
-#### LunarLander-late
+#### LunarLander - late
 
 <img src='results/LunarLander/LunarLander-late.gif' width='550' height='375' />
