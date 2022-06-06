@@ -31,8 +31,8 @@
 
 #### LunarLander59
 
-<img src='results/LunarLander/LunarLander59.gif' width='450' height='350' />
+<img src='results/LunarLander/LunarLander59.gif' width='550' height='375' />
 
 #### LunarLander86
 
-<img src='results/LunarLander/LunarLander86.gif' width='450' height='350' />
+<img src='results/LunarLander/LunarLander86.gif' width='550' height='375' />
