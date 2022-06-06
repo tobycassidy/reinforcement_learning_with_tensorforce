@@ -6,4 +6,4 @@
 
 #### Learning the importance of staying between the flags
 
-<img src='results/LunarLander/LunarLander86%.gif' width='250' height='200' />
+<img src='results/LunarLander/LunarLander0%.gif' width='250' height='200' />
