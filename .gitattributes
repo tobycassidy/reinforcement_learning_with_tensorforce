@@ -1,0 +1,2 @@
+tensorforce/monitor/* filter=lfs diff=lfs merge=lfs -text
+tensorforce/summaries/* filter=lfs diff=lfs merge=lfs -text
