@@ -19,7 +19,7 @@
 
 
 #### CartPole - Important plots taken from TensorBoard
-(episode returns, episode lengths, action distributions and agent entropy)
+(episode returns, episode lengths, agent entropy and action distributions)
 
 <img src='results/CartPole/CartPole-summary_plots.png' /> 
 
@@ -38,3 +38,9 @@
 #### LunarLander - late
 
 <img src='results/LunarLander/LunarLander-late.gif' width='550' height='375' />
+
+
+#### LunarLander - Important plots taken from TensorBoard
+(episode returns, episode lengths, agent entropy and action distributions)
+
+<img src='results/LunarLander/LunarLander-summary_plots.png' /> 
