@@ -21,9 +21,10 @@
 #### Tensorboard Experiment Summaries 
 (episode returns, episode lengths, action distributions and agent entropy)
 
-<img src='results/CartPole/CartPole-epsiode_return.png' width='350' height='300' />
-<img src='results/CartPole/CartPole-epsiode_length.png' width='350' height='300' />
-<img src='results/CartPole/CartPole-action_distributions.png' width='350' height='300' />
+<img src='results/CartPole/CartPole-episode_return.png' width='350' height='300' />
+<img src='results/CartPole/CartPole-episode_length.png' width='350' height='300' />
+<img src='results/CartPole/CartPole-action_distribution(0).png' width='350' height='300' />
+<img src='results/CartPole/CartPole-action_distribution(1).png' width='350' height='300' />
 <img src='results/CartPole/CartPole-agent_entropy.png' width='350' height='300' />
 
 ---
