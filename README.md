@@ -27,12 +27,12 @@
 
 #### LunarLander0
 
-<img src='results/LunarLander/LunarLander0.gif' width='350' height='300' />
+<img src='results/LunarLander/LunarLander0.gif' width='450' height='300' />
 
 #### LunarLander59
 
-<img src='results/LunarLander/LunarLander59.gif' width='350' height='300' />
+<img src='results/LunarLander/LunarLander59.gif' width='450' height='300' />
 
 #### LunarLander86
 
-<img src='results/LunarLander/LunarLander86.gif' width='350' height='300' />
+<img src='results/LunarLander/LunarLander86.gif' width='450' height='300' />
