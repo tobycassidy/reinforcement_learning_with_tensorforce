@@ -6,4 +6,4 @@
 
 #### Episode Return
 
-<img src='results/LunarLander/LunarLander86%.gif' width='250' height='200' />
+<img src='results/LunarLander/LunarLander86%.mp4' width='250' height='200' />
