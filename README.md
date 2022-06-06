@@ -21,7 +21,7 @@
 #### CartPole - Important plots taken from TensorBoard
 (episode returns, episode lengths, action distributions and agent entropy)
 
-<img src='results/CartPole/CartPole-summary_plots.png' width='700' height='900' />
+<img src='results/CartPole/CartPole-summary_plots.png' width='900' height='700' />
 
 ---
 ## LunarLander
