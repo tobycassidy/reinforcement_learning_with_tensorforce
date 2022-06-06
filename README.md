@@ -7,4 +7,4 @@
 #### Episode Return
 
 
-<video src='results/LunarLander/LunarLander86%.mp4' style="width: 250px;"> </video>
+<video src='results/LunarLander/LunarLander0.gif' style="width: 250px;"> </video>
