@@ -17,6 +17,7 @@ There are three main components in setting up a tensorforce solution (as shown i
 ---
 ## CartPole
 ---
+[Brief Intro to CartPole](https://github.com/tobycassidy/reinforcement_learning_with_tensorforce/blob/main/walkthroughs/CartPole.ipynb)
 
 #### CartPole - early
 
@@ -31,14 +32,20 @@ There are three main components in setting up a tensorforce solution (as shown i
 <img src='results/CartPole/CartPole-late.gif' width='350' height='300' />
 
 
-#### CartPole - Plots taken from TensorBoard Summaries
-(episode returns, episode lengths, agent entropy and action distributions)
+#### CartPole - Plots taken from TensorBoard
+comments:
+
+- episode_return increasing, the agent is learning to maximize the reward. 
+- episode_length increasing, for CartPole the episode length and returns are directly related so this is expected.
+- agent_entropy decreasing, this is desireable since high entropy is associated with uncertainty and we want a certain agent.
+- action_distributions varying, this makes sense since both actions represent moving left and right so oscillating between these keeps balance of the pole and is also sensitive to random initialization.
 
 <img src='results/CartPole/CartPole-summary_plots.png' /> 
 
 ---
 ## LunarLander
 ---
+[Brief Intro to LunarLander](https://github.com/tobycassidy/reinforcement_learning_with_tensorforce/blob/main/walkthroughs/LunarLander.ipynb)
 
 #### LunarLander - early
 
@@ -53,7 +60,13 @@ There are three main components in setting up a tensorforce solution (as shown i
 <img src='results/LunarLander/LunarLander-late.gif' width='550' height='375' />
 
 
-#### LunarLander - Plots taken from TensorBoard Summaries
-(episode returns, episode lengths, agent entropy and action distributions)
+#### LunarLander - Plots taken from TensorBoard
+comments:
+
+- episode_return increasing, the agent is learning to maximize the reward. 
+- episode_length increasing, the agent prioritzes not crashing the lunar module and slowly approaches the ground.
+- agent_entropy decreasing, this is desireable since high entropy is associated with uncertainty and we want a certain agent.
+- action_distribution(2) interesting trend with time, the lunar module can take 4 actions (do nothing, fire main engine, fire left engine and fire right engine) and action 2 corresponds to firing the main engine. This distribution is interesting because initially until about 100k on the x-axis we see a strong increase, meaning the agent is learning the importance of not crashing, i.e fire the main engine a lot. However, deeper into training there is more variability in the main engine use. This is because the agent is learning the importance of landing as quickly as possible (since it is penalized for fuel consumption). The variance is down to the initial velocity conditions, a high initial velocity results in the main engine being fired a lot (to avoid crashing) and a low initial velocity results in the main engine being used as little as possible (to land as quickl as possible). This is an important takeaway into the importance of rewards, a large penalization for crashing results in this being prioritized by the agent first and then eventually the fuel consumption penalty comes into play (as this is a smaller penalty).
+
 
 <img src='results/LunarLander/LunarLander-summary_plots.png' /> 
